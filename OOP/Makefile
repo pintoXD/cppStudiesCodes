@@ -8,10 +8,10 @@ SRC_DIR = src
 OBJ_DIR = obj
 
 
-SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/employee.cpp
-OBJ = $(OBJ_DIR)/main.o $(OBJ_DIR)/employee.o
+SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/employee.cpp $(SRC_DIR)/roles.cpp
+OBJ = $(OBJ_DIR)/main.o $(OBJ_DIR)/employee.o $(OBJ_DIR)/roles.o
 
-DEPS = $(INC_DIR)/employee.hpp
+DEPS = $(INC_DIR)/employee.hpp $(INC_DIR)/roles.hpp
 
 #compiler flags
 

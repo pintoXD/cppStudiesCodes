@@ -10,7 +10,7 @@ class Employee
 {
 
     public:
-        // Employee(string name = "", string gender = "", string hiring_date = "", string birth_date = "", int id_no = 0, float current_wage = 0);
+        Employee(string name, string gender, string hiring_date, string birth_date, int id_no, float current_wage);
         Employee();
         ~Employee();
 

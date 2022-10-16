@@ -1,21 +1,21 @@
 // #include <iostream>
 #include "employee.hpp"
 
-// Employee::Employee(string name, string gender, string hiring_date, string birth_date, int id_no, float current_wage)
-//                 :
-//                 m_name(name),
-//                 m_gender(gender),
-//                 m_hiring_date(hiring_date),
-//                 m_birth_date(birth_date),
-//                 m_id_no(id_no),
-//                 m_salary(current_wage)
+Employee::Employee(string name, string gender, string hiring_date, string birth_date, int id_no, float current_wage)
+                :
+                m_name(name),
+                m_gender(gender),
+                m_hiring_date(hiring_date),
+                m_birth_date(birth_date),
+                m_id_no(id_no),
+                m_salary(current_wage)
             
-// {
+{
 
-//     // return 0;
-//     printf("Objeto criado");
+    // return 0;
+    printf("Objeto criado");
 
-// }
+}
 
 
 
